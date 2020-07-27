@@ -1,0 +1,8 @@
+{
+  "github": {
+    "enabled": true
+  },
+  "alias": ["mobx-keystone-template-template", "mobx-keystone-nextjs"],
+  "public": true,
+  "version": 2
+}
