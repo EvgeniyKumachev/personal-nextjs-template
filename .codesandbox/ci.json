@@ -1,3 +1,5 @@
 {
-  "sandboxes": ["/nextjs/mobx-nextjs-emotion-boilerplate"]
+  "sandboxes": [
+    "mobx-keystone-nextjs"
+  ]
 }
