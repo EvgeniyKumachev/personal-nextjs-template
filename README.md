@@ -1,2 +1,13 @@
-# mobx-nextjs-emotion-boilerplate
-Created with CodeSandbox
+# nextjs-template
+
+### Установка
+
+```bash
+yarn install
+```
+
+### Запуск
+
+```bash
+yarn run dev
+```

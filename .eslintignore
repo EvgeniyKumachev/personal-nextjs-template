@@ -1,0 +1,10 @@
+node_modules
+next.config.js
+scripts
+jest.config.js
+config/jest
+test
+shipitfile.js
+pm2.config.js
+src/**/*.css
+server/tsconfig.json
