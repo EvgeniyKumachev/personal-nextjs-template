@@ -1,0 +1,12 @@
+{
+  "typescript.format.enable": false,
+  "typescript.tsserver.useSeparateSyntaxServer": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeInsets": true,
+  "editor.codeLens": false,
+  "editor.codeActionsOnSaveTimeout": 1000,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSaveTimeout": 1500,
+}
