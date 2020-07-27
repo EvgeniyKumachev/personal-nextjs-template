@@ -37,7 +37,7 @@
     "mobx-utils": "^5.5.7",
     "next": "9.4.5-canary.45",
     "next-compose-plugins": "^2.2.0",
-    "next-seo": "^4.4.0",
+    "next-seo": "^4.7.3",
     "nookies": "^2.2.2",
     "path-to-regexp": "^6.1.0",
     "react": "^16.13.1",
