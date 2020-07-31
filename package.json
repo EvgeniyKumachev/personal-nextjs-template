@@ -45,7 +45,7 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.7",
+    "@babel/core": "^7.11.0",
     "@babel/plugin-proposal-decorators": "^7.10.5",
     "@svgr/cli": "^5.3.1",
     "@types/cookie": "^0.4.0",
