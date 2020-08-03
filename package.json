@@ -50,7 +50,7 @@
     "@svgr/cli": "^5.3.1",
     "@types/cookie": "^0.4.0",
     "@types/node": "^13.11.1",
-    "@types/react": "^16.9.43",
+    "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.6",
     "@types/signale": "^1.4.1",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
