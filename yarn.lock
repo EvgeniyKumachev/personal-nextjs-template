@@ -4750,10 +4750,10 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-mobx-keystone@^0.45.0:
-  version "0.45.0"
-  resolved "https://registry.yarnpkg.com/mobx-keystone/-/mobx-keystone-0.45.0.tgz#5edea0e70633c585e15ef3ce884c454ce404dc52"
-  integrity sha512-U3yV98l+QscAz3SyfdIKwA3GvbhVX2JhBzdPkwjEYob/DQl7cg0ODssGmtaCVCFnnis+IAGn1zAgXkqYHquCsQ==
+mobx-keystone@^0.45.1:
+  version "0.45.1"
+  resolved "https://registry.yarnpkg.com/mobx-keystone/-/mobx-keystone-0.45.1.tgz#4c38b8e5e4a78a2c20261fe2229b7d5e9114a333"
+  integrity sha512-FOuXZjd0pcm1WQMidMFNGZKegvc5lBjqkLKDb6gcWtvyZRFVv0bf+TjeI3Bg4t+D6I+WaoW/FC07VOwV2sN55A==
   dependencies:
     fast-deep-equal "^3.1.1"
     ts-toolbelt "^6.1.4"
