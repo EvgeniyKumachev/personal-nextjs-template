@@ -7,13 +7,14 @@ module.exports = {
   plugins: [
     ['@babel/plugin-proposal-decorators', { legacy: true }],
     [
-      '@emotion',
+      'styled-components',
       {
-        sourceMap: isDev,
-        autoLabel: 'dev-only',
-        labelFormat: '[local]',
-        cssPropOptimization: isProduction,
-      },
-    ],
-  ].filter(Boolean),
+        ssr: true,
+        displayName: isDev,
+        minify: isProduction,
+        pure: isProduction,
+        transpileTemplateLiterals: true
+      }
+    ]
+  ].filter(Boolean)
 }
