@@ -71,7 +71,7 @@
     "react-test-renderer": "^16.13.1",
     "rimraf": "^3.0.0",
     "signale": "^1.4.0",
-    "ts-toolbelt": "^6.3.12",
+    "ts-toolbelt": "^6.15.0",
     "typescript": "^3.9.7"
   },
   "keywords": [],
