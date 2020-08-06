@@ -9,10 +9,10 @@ import {
   modelSnapshotInWithMetadata,
   onActionMiddleware,
   onSnapshot,
-  prop,
+  prop
 } from 'mobx-keystone'
 
 @model('app/store/root')
 export class RootStore extends Model({
-  test: prop<string | null>(null),
+  test: prop<string | null>(null)
 }) {}

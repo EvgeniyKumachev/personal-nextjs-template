@@ -3,7 +3,7 @@ import {
   modelSnapshotInWithMetadata,
   onActionMiddleware,
   registerRootStore,
-  SnapshotInOf,
+  SnapshotInOf
 } from 'mobx-keystone'
 
 import { RootStore } from './root'

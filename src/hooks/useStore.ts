@@ -14,7 +14,7 @@ export function useStore() {
 }
 
 export function useStoreSelect<P = {}>(
-  selector: (store: ReturnType<typeof useStore>) => P,
+  selector: (store: ReturnType<typeof useStore>) => P
 ) {
   const store = useStore()
 

@@ -3,7 +3,7 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    node: true,
+    node: true
   },
   parser: '@typescript-eslint/parser',
   extends: ['prettier/@typescript-eslint', 'plugin:prettier/recommended'],
@@ -12,19 +12,19 @@ module.exports = {
     'simple-import-sort',
     'prettier',
     'import',
-    '@typescript-eslint',
+    '@typescript-eslint'
   ],
   settings: {
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
+      '@typescript-eslint/parser': ['.ts', '.tsx']
+    }
   },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   rules: {
     'prettier/prettier': ['error'],
@@ -45,13 +45,13 @@ module.exports = {
             '^\\.(?!/?$)',
             '^\\./?$',
             '^\\.\\.(?!/?$)',
-            '^\\.\\./?$',
+            '^\\.\\./?$'
           ],
 
           // Style imports.
-          ['^.+\\.s?css$'],
-        ],
-      },
+          ['^.+\\.s?css$']
+        ]
+      }
     ],
     'import/first': 'error',
     'import/no-duplicates': 'error',
@@ -59,15 +59,14 @@ module.exports = {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': 'off',
     '@typescript-eslint/ban-types': 'off',
-    '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': [
       'off',
       {
         overrides: {
-          constructors: 'off',
-        },
-      },
+          constructors: 'off'
+        }
+      }
     ],
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
@@ -77,13 +76,13 @@ module.exports = {
       {
         multiline: {
           delimiter: 'none',
-          requireLast: true,
+          requireLast: true
         },
         singleline: {
           delimiter: 'semi',
-          requireLast: false,
-        },
-      },
+          requireLast: false
+        }
+      }
     ],
     '@typescript-eslint/member-ordering': 'off',
     '@typescript-eslint/no-empty-function': 'off',
@@ -136,8 +135,8 @@ module.exports = {
     'no-shadow': [
       'off',
       {
-        hoist: 'all',
-      },
+        hoist: 'all'
+      }
     ],
     'no-sparse-arrays': 'error',
     'no-template-curly-in-string': 'error',
@@ -157,6 +156,6 @@ module.exports = {
     radix: 'error',
     'space-before-function-paren': 'off',
     'use-isnan': 'error',
-    'valid-typeof': 'off',
-  },
+    'valid-typeof': 'off'
+  }
 }
