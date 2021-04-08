@@ -6,13 +6,13 @@ module.exports = {
     node: true
   },
   parser: '@typescript-eslint/parser',
-  extends: ['prettier/@typescript-eslint', 'plugin:prettier/recommended'],
+  extends: ['plugin:@next/next/recommended', 'prettier'],
   plugins: [
-    'react',
-    'simple-import-sort',
     'prettier',
-    'import',
-    '@typescript-eslint'
+    'react',
+    '@typescript-eslint',
+    'simple-import-sort',
+    'import'
   ],
   settings: {
     'import/parsers': {
@@ -20,24 +20,23 @@ module.exports = {
     }
   },
   parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true
-    }
+    sourceType: 'module'
   },
   rules: {
     'prettier/prettier': ['error'],
-    'simple-import-sort/sort': [
+    'simple-import-sort/imports': [
       'error',
       {
         groups: [
+          // Style imports.
+          ['^.+\\.s?css$'],
+          // Side effect imports.
+          ['^\\u0000'],
+
           // Packages. `react` related packages come first.
           ['^react', '^@?\\w'],
 
           ['^(@app)(/.*|$)'],
-          // Side effect imports.
-          ['^\\u0000'],
 
           // Other relative imports. Put same-folder imports and `.` last.
           [
@@ -46,16 +45,14 @@ module.exports = {
             '^\\./?$',
             '^\\.\\.(?!/?$)',
             '^\\.\\./?$'
-          ],
-
-          // Style imports.
-          ['^.+\\.s?css$']
+          ]
         ]
       }
     ],
+    'simple-import-sort/exports': ['error'],
     'import/first': 'error',
+    'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
-    'sort-imports': 'off',
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': 'off',
     '@typescript-eslint/ban-types': 'off',
