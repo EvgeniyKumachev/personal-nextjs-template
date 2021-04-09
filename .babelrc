@@ -11,7 +11,7 @@
     ]
   ],
   "plugins": [
-    "@emotion/babel-plugin",
+    "@emotion",
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
     ["@babel/plugin-proposal-class-properties", { "loose": false }]
   ]

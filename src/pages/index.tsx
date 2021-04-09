@@ -1,8 +1,9 @@
 import React, { Component, FC } from 'react'
-import { GetServerSideProps } from 'next'
+
+import Layout from '@app/containers/Layout'
 
 export interface Props {}
 
-const IndexPage: FC<Props> = (props) => <div>index</div>
+const IndexPage: FC<Props> = (props) => <Layout>index</Layout>
 
 export default IndexPage
